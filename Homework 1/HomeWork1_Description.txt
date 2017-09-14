@@ -1,0 +1,48 @@
+Homework 1 (after classes 1&2)
+
+Enter http://rextester.com/KILE21209 and write SQL queries for:
+
+1.
+
+Show the surnames and department ids of the employees who started working on 1 Jan 2016 and earn more than 3500. Order entries by surnames, a->z.
+
+2.
+
+Show all other employees, but don’t use “NOT” in this query.
+
+3.
+
+Show the total number of employees and their average salaries, aggregated by department. List only departments with at least 4 employees.
+
+4.
+
+Show average salary by department colour.
+
+5.
+
+Show name, surname and boss_id for each employee whose boss is not present in the staff table. (HINT: you can join a table with itself; in JOIN you can use aliases, e.g. “staff AS bosses”.)
+
+Enter http://data.stackexchange.com/ and for the Stack Overflow data:
+
+6.
+
+Show the total reputation, the average age and user count for users (grouped by year in which an account was created), who have non-empty website address and their location contains the string ‘London’ (e.g. ‘London (UK)’ is also fine).
+
+7. (Challenge)
+
+Many question have multiple tags (e.g. [‘html’, ‘javascript’, ‘jquery’]). List the top 100 most common pairs of tags along with their counts.
+
+Pen & paper:
+
+8. (Challenge)
+
+You are  given a graph in the form of a table with columns:
+edge_id, source_id, target_id
+with source_id and target_id pointing to some node_id. For an undirected graph each edge is described twice.
+
+The clustering coefficient is an important number describing properties of a complex network (for example – is it likely that two of your friends are friends with each other?). To calculate it, we need to calculate the number of triangles, that is, triads of nodes connected with each other. Write a query for that.
+
+Notes
+
+The challenge exercises are optional – they carry no points (but I am will provide feedback).
+Please submit a file (preferably ending in .sql) with these queries, separated by comment lines “– [task number]”. Add results (as a comment block, otherwise in any format) after the query. An example: https://gist.github.com/stared/99315c25e2f3c8f6dad877bbb2de4916
